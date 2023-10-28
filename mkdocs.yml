@@ -1,0 +1,28 @@
+site_name: 语言学自学指南 Ling-diy
+site_url: https://example.com/
+theme: material
+nav:
+  - 前言: index.md
+  - 好书推荐: index.md
+  - 语音学:
+    - 发声语音学: 'phonetics\art_phone.md'
+    - 声学语音学: 'phonetics\aco_phone.md'
+    - 听觉语音学: 'phonetics\aud_phone.md'
+  - 音系学: phonology.md
+  - 形态学: morphology.md
+  - 句法学: 
+    - 生成句法: 'syntax\gene_syn.md'
+    - 依存语法: 'syntax\depe_gra.md'
+    - 范畴语法: 'syntax\cate_gra.md'
+    - 概率语法: 'syntax\prob_gra.md'
+    - 功能语法: 'syntax\func_gra.md'
+    - 认知语法: 'syntax\cogn_gra.md'
+  - 语义学: 
+    - 形式语义学: 'semantics\form_sem.md'
+    - 概念语义学: 'semantics\conc_sem.md'
+    - 认知语义学: 'semantics\cogn_sem.md'
+    - 词汇语义学: 'semantics\lexi_sem.md'
+    - 跨文化语义学: 'semantics\crcu_sem.md'
+    - 计算语义学: 'semantics\form_sem.md'
+  - 语用学: pragmatics.md
+  - 其他: about.md
