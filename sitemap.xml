@@ -2,107 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/about/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/book/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/morphology/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/phonology/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/pragmatics/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/linguistics/mit24.900/</loc>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/phonetics/aco_phone/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/phonetics/art_phone/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/phonetics/aud_phone/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/cogn_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/comp_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/conc_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/crcu_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/form_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/semantics/lexi_sem/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/cate_gra/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/cogn_gra/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/depe_gra/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/func_gra/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/gene_syn/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/syntax/prob_gra/</loc>
-         <lastmod>2023-10-28</lastmod>
+         <lastmod>2023-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
