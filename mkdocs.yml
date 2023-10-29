@@ -3,7 +3,9 @@ site_url: https://example.com/
 theme: material
 nav:
   - 前言: index.md
-  - 好书推荐: index.md
+  - 好书推荐: book.md
+  - 语言学入门: 
+    - MIT24.900: 'linguistics\mit24.900.md'
   - 语音学:
     - 发声语音学: 'phonetics\art_phone.md'
     - 声学语音学: 'phonetics\aco_phone.md'
