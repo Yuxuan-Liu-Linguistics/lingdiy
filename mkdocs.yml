@@ -5,7 +5,7 @@ nav:
   - 前言: index.md
   - 好书推荐: book.md
   - 语言学入门: 
-    - MIT24.900: 'linguistics\mit24.900.md'
+    - MIT 24.900: 'linguistics\mit24.900.md'
   - 语音学:
     - 发声语音学: 'phonetics\art_phone.md'
     - 声学语音学: 'phonetics\aco_phone.md'
@@ -13,12 +13,10 @@ nav:
   - 音系学: phonology.md
   - 形态学: morphology.md
   - 句法学: 
-    - 生成句法: 'syntax\gene_syn.md'
-    - 依存语法: 'syntax\depe_gra.md'
-    - 范畴语法: 'syntax\cate_gra.md'
-    - 概率语法: 'syntax\prob_gra.md'
-    - 功能语法: 'syntax\func_gra.md'
-    - 认知语法: 'syntax\cogn_gra.md'
+    - MIT 24.902: 'syntax\mit24.902.md'
+    - MIT 24.951: 'syntax\mit24.951.md'
+    - MIT 24.952: 'syntax\mit24.952.md'
+    - 句法基础: 'syntax\basic_syntax.md'
   - 语义学: 
     - 形式语义学: 'semantics\form_sem.md'
     - 概念语义学: 'semantics\conc_sem.md'

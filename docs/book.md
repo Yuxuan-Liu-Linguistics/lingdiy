@@ -7,7 +7,7 @@
 - Chomsky, N. *Syntactic Structures*.
 
 ## 语言学概论
-- Fromkin, V., Rodman, R. and Hyams N. [*An Introduction to Language*]((https://ukhtt3nee.files.wordpress.com/2019/04/an_introduction_to_language.pdf),), 10th edition. 2013. Cengage Learning.
+- Fromkin, V., Rodman, R. and Hyams N. [*An Introduction to Language*](https://ukhtt3nee.files.wordpress.com/2019/04/an_introduction_to_language.pdf), 10th edition. 2013. Cengage Learning.
 
 ## 语音学
 - Ladefoged, P., Johnson, K. *A Course in Phonetics*[[课程网站]](https://linguistics.berkeley.edu/acip/), 7th edition. 2014. Cengage Learning.
@@ -20,6 +20,7 @@
 - Lieber, R. *Introducing Morphology*, 2nd edition. 2016. Cambridge University Press.
 
 ## 句法学
+- Van Valin Jr, R. D. *An Introduction to Syntax*. 2001. Cambridge University Press.
 - Tallerman, M. *Understanding Syntax*, 5th edition. 2020. Routledge.
 
 ## 语义学
