@@ -1,6 +1,49 @@
 site_name: 语言学自学指南 Ling-diy
 site_url: https://example.com/
-theme: material
+site_author: Yuxuan Liu
+
+theme:
+  name: material
+
+  palette:
+    #primary: blue grey
+  
+    - scheme: default # 日间模式
+      primary: deep purple # 上方的
+      accent: cyan # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-sunny # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: black 
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换至日间模式
+  features: 
+    #- navigation.instant #- header.autohide  #自动隐藏
+    #- announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    #- navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    #- navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    #- navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    #- navigation.expand # 打开Tab时左侧目录全部展开
+    #- navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    #- search.share #搜索分享按钮
+  language: zh # 一些提示性的文字会变成中文
+
+
+  icon: 
+    repo: fontawesome/brands/github #右上角图标
+edit_uri: docs # 编辑按钮跳转的链接 
+repo_url: https://github.com/Yuxuan-Liu-Linguistics/lingdiy
+repo_name: lingdiy.github.io
+
+copyright: Copyright &copy; 2023 Yuxuan Liu
+
 nav:
   - 前言: index.md
   - 好书推荐: book.md
@@ -13,10 +56,10 @@ nav:
   - 音系学: phonology.md
   - 形态学: morphology.md
   - 句法学: 
+    - 句法基础: 'syntax\basic_syntax.md'
     - MIT 24.902: 'syntax\mit24.902.md'
     - MIT 24.951: 'syntax\mit24.951.md'
     - MIT 24.952: 'syntax\mit24.952.md'
-    - 句法基础: 'syntax\basic_syntax.md'
   - 语义学: 
     - 形式语义学: 'semantics\form_sem.md'
     - 概念语义学: 'semantics\conc_sem.md'
@@ -26,3 +69,48 @@ nav:
     - 计算语义学: 'semantics\form_sem.md'
   - 语用学: pragmatics.md
   - 其他: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yuxuan-Liu-Linguistics
+    - icon: fontawesome/brands/zhihu
+      link: https://www.zhihu.com/people/man-1mu-0lin-2lang-0
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/12291335?spm_id_from=333.1007.0.0
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<yx-liu23@mails.tsinghua.edu.com> 
+
+markdown_extensions:
+  - abbr
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - mdx_math
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
+     
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+extra_css:
+  - stylesheets/extra.css
