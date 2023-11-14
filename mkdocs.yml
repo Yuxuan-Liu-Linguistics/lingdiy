@@ -68,6 +68,8 @@ nav:
     - 跨文化语义学: 'semantics\crcu_sem.md'
     - 计算语义学: 'semantics\form_sem.md'
   - 语用学: pragmatics.md
+  - 计算语言学: 
+    - 推荐: 'comling\recommend.md'
   - 其他: about.md
 
 extra:
