@@ -68,6 +68,8 @@ nav:
     - 跨文化语义学: 'semantics\crcu_sem.md'
     - 计算语义学: 'semantics\form_sem.md'
   - 语用学: pragmatics.md
+  - 计算语言学: 
+    - 推荐: 'comling\recommend.md'
   - 其他: about.md
 
 extra:
@@ -82,6 +84,7 @@ extra:
       link: mailto:<yx-liu23@mails.tsinghua.edu.com> 
 
 markdown_extensions:
+  - footnotes
   - abbr
   - pymdownx.caret
   - pymdownx.mark
